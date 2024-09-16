@@ -28,3 +28,24 @@
         background-position: center center;
       }
 } */
+
+
+/* carousel-item style start */
+.carousel-item>img{
+  height: 70vh;
+  width: 100%;
+}
+
+
+
+/* carousel-item style end */
+
+
+/* carousel-item media-queries start*/
+@media screen and (max-width:576px) {
+  .carousel-item>img{
+    height: 30vh;
+    width: 100%;
+  }
+}
+/* carousel-item media-queries end*/
